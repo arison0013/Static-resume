@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Ubuntu;
-    word-break: break-all;
+    
 }
 @font-face {
     font-family: Ubuntu;
@@ -71,7 +71,7 @@
     width: 65%;
     padding:66px 41px;
     min-height: 303px;
-    
+    word-break: break-all;
     
 }
 .main2{
@@ -85,7 +85,7 @@
     width: 35%;
     padding: 45px 40px;
     padding-bottom: 120px;
-    
+    word-break: break-all;
     
     
 }
@@ -98,7 +98,7 @@
     width: 65%;
     padding: 49px 32px;
     padding-bottom: 66px;
-    
+    word-break: break-all;
     
 }
 .contenthead{
