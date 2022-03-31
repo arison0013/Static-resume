@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Ubuntu;
+    word-break: break-all;
 }
 @font-face {
     font-family: Ubuntu;
@@ -47,8 +48,7 @@
     float: left;
     width: 35%;
     padding: 30px 40px;
-    min-height: 303px;
-    
+    min-height: 303px; 
     
 }
 .head{
@@ -72,6 +72,7 @@
     padding:66px 41px;
     min-height: 303px;
     
+    
 }
 .main2{
     width:100%;
@@ -86,6 +87,7 @@
     padding-bottom: 120px;
     
     
+    
 }
 .space{
     line-height: 30px;
@@ -96,6 +98,7 @@
     width: 65%;
     padding: 49px 32px;
     padding-bottom: 66px;
+    
     
 }
 .contenthead{
@@ -145,11 +148,12 @@
 }
 
 .img1 {
-    width: 27px;
+    width: 22px;
     height: 20px;
     background-color: white;
-    border-radius: 18px;
+    border-radius: 15px;
     margin-top: 10px;
+    /* font-size: 106px; */
 }
 .summary p{
     font-size: 17px;
