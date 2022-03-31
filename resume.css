@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Bold.ttf);
+    font-weight: 700;
+    
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Regular.ttf);
+    
+}
+.grand{
+    float: left;
+    width:100%;
+    padding: 20px 0px;
+}
+.parent {
+    width: 100%;
+    padding: 25px 10px;
+    max-width: 887px;
+    margin: auto;
+}
+
+.main1{
+    float: left;
+    width: 100%;
+}
+
+.content1 {
+    background-color: #F2D8D6;
+    float: left;
+    width: 35%;
+    padding: 28px 40px;
+    
+}
+.head{
+    font-size: 40px;
+}
+.line{
+    width: 48px;
+    border: 1px solid black;
+    margin-top: 12px;
+}
+.list{
+    line-height: 40px;
+    font-size: 17px;
+    padding-top: 16px;
+}
+.content2{
+    background-color: #FCF7F7;
+    float: right;
+    width: 65%;
+    padding: 72px 32px;
+    
+}
+.main2{
+    width:100%;
+  float: left;
+}
+
+.content3{
+    float:left;
+    background-color:  #FCF7F7;
+    width: 35%;
+    padding: 45px 40px;
+    padding-bottom: 120px;
+    
+    
+}
+.space{
+    line-height: 30px;
+}
+.content4{
+    float: right;
+    background-color: #ffffff;
+    width: 65%;
+    padding: 49px 32px;
+    padding-bottom: 66px;
+    
+}
+.contenthead{
+    font-size: 18px;
+}
+.skills{
+    margin-top: 165px;
+    
+}
+.list2{
+    width: 100%;
+    float: right;
+    padding: 18px;
+    font-size: 17px;
+}
+.innercontent{
+    margin-top: 19px;
+}
+.edu {
+    margin-top: 35px;
+}
+.work{
+    margin-top: 198px;
+}
+.innercontent p{
+    font-size: 17px;
+}
+.list3{
+    width: 100%;
+    float: right;
+    padding: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 17px;
+}
+.img{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 18px;
+}
+.listTop{
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+}
+
+.img1 {
+    width: 27px;
+    height: 20px;
+    background-color: white;
+    border-radius: 18px;
+}
+.summary p{
+    font-size: 17px;
+}
+.recordheight{
+    padding-top: 26px;
+}
+
+@media  (max-width:900px) {
+    .grand {
+        width: 100%;
+    }
+    .parent {
+        width: 100%;
+        padding: 25px 10px;
+        max-width: none; 
+         margin: 0;
+    }
+    .main1 {
+        float: left;
+        width: 100%;
+    } 
+    .content1 {
+        width: 100%;
+    }
+    .content2 {
+        width: 100%;
+    }
+    .content3 {
+        width: 100%;
+        padding: 10px 40px;
+        padding-bottom: 48px;
+    }
+    .content4 {
+        width: 100%;
+    }
+    
+}
+
+
+/* @media (max-width: 760px){
+    .content1 {
+        width: 100%;
+    }
+    .content2 {
+        width: 100%;
+    }
+    .content3 {
+        width: 100%;
+       padding-bottom: 67px;
+    }
+    .content4 {
+        width: 100%;
+    }
+} */
+
+
